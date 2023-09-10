@@ -1,8 +1,8 @@
 <div class="py-5 px-5">
-    <div class="row px-5">
-        <div class="col-4 pe-5">
-            <h2 class="pb-5">Applied</h2>
-            <div class="pe-5 pb-3" *ngFor="let ap of applied">
+    <div class="row px-sm-2 px-lg-3 px-xl-5">
+        <div class="col-md-12 col-lg-4 pe-5 pb-5">
+            <h2 class="pb-sm-2 pb-lg-5">Applied</h2>
+            <div class="pe-sm-0 pe-lg-3 pe-xl-5  pb-3" *ngFor="let ap of applied">
                 <mat-card>
                     <mat-card-header><p class="fs-5"><b>{{ap.name}}</b></p></mat-card-header>
                     <mat-card-content>
@@ -22,9 +22,9 @@
                 </mat-card>
             </div>
         </div>
-        <div class="col-4 pe-5">
-            <h2 class="pb-5">Accepted</h2>
-            <div class="pe-5 pb-3" *ngFor="let ac of accepted">
+        <div class="col-md-12 col-lg-4 pe-5 pb-5">
+            <h2 class="pb-sm-2 pb-lg-5">Accepted</h2>
+            <div class="pe-sm-0 pe-lg-3 pe-xl-5  pb-3" *ngFor="let ac of accepted">
                 <mat-card>
                     <mat-card-header><p  class="fs-5"><b>{{ac.name}}</b></p></mat-card-header>
                     <mat-card-content>
@@ -44,9 +44,9 @@
                 </mat-card>
             </div>
         </div>
-        <div class="col-4 pe-5">
-            <h2 class="pb-5">Rejected</h2>
-            <div class="pe-5 pb-3" *ngFor="let re of rejected">
+        <div class="col-md-12 col-lg-4 pe-5 pb-5">
+            <h2 class="pb-sm-2 pb-lg-5">Rejected</h2>
+            <div class="pe-sm-0 pe-lg-3 pe-xl-5  pb-3" *ngFor="let re of rejected">
                 <mat-card>
                     <mat-card-header><p  class="fs-5"><b>{{re.name}}</b></p></mat-card-header>
                     <mat-card-content>
