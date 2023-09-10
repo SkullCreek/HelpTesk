@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StatusPageComponent } from './status-page/status-page.component';
 import {MatCardModule} from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatCardModule} from '@angular/material/card';
     AppRoutingModule,
     BrowserAnimationsModule,
     NgbModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
